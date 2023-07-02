@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart сохраняет верстку 1`] = `
+<div
+  className="Cart"
+>
+  <div
+    className="row mb-4"
+  >
+    <div
+      className="col"
+    >
+      <h1>
+        Shopping cart
+      </h1>
+      <div
+        className="row my-2"
+      >
+        <div
+          className="col-12 col-sm-8 col-md-6"
+        >
+          <div
+            className="Cart-SuccessMessage alert alert-success"
+          >
+            <h4
+              className="alert-heading"
+            >
+              Well done!
+            </h4>
+            <p>
+              Order #
+              <strong
+                className="Cart-Number"
+              >
+                1
+              </strong>
+               has been successfully completed.
+            </p>
+            <hr />
+            <p
+              className="mb-0"
+            >
+              Please wait for confirmation of delivery.
+            </p>
+          </div>
+        </div>
+      </div>
+      Cart is empty. Please select products in the 
+      <a
+        href="/hw/store/store/cart/catalog"
+        onClick={[Function]}
+      >
+        catalog
+      </a>
+      .
+    </div>
+  </div>
+</div>
+`;

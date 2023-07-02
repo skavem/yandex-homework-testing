@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails рендерится корректно 1`] = `
+<div
+  className="ProductDetails row"
+>
+  <div
+    className="col-12 col-sm-5 col-lg-4"
+  >
+    <img
+      className="Image"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+    />
+  </div>
+  <div
+    className="col-12 col-sm-7 col-lg-6"
+  >
+    <h1
+      className="ProductDetails-Name"
+    >
+      test
+    </h1>
+    <p
+      className="ProductDetails-Description"
+    >
+      lorem ipsum
+    </p>
+    <p
+      className="ProductDetails-Price fs-3"
+    >
+      $
+      10
+    </p>
+    <p>
+      <button
+        className="ProductDetails-AddToCart btn btn-primary btn-lg"
+        onClick={[Function]}
+      >
+        Add to Cart
+      </button>
+    </p>
+    <dl>
+      <dt>
+        Color
+      </dt>
+      <dd
+        className="ProductDetails-Color text-capitalize"
+      >
+        red
+      </dd>
+      <dt>
+        Material
+      </dt>
+      <dd
+        className="ProductDetails-Material text-capitalize"
+      >
+        copium
+      </dd>
+    </dl>
+  </div>
+</div>
+`;
+
+exports[`ProductDetails сохраняет верстку 1`] = `
+<div
+  className="ProductDetails row"
+>
+  <div
+    className="col-12 col-sm-5 col-lg-4"
+  >
+    <img
+      className="Image"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+    />
+  </div>
+  <div
+    className="col-12 col-sm-7 col-lg-6"
+  >
+    <h1
+      className="ProductDetails-Name"
+    >
+      test
+    </h1>
+    <p
+      className="ProductDetails-Description"
+    >
+      lorem ipsum
+    </p>
+    <p
+      className="ProductDetails-Price fs-3"
+    >
+      $
+      10
+    </p>
+    <p>
+      <button
+        className="ProductDetails-AddToCart btn btn-primary btn-lg"
+        onClick={[Function]}
+      >
+        Add to Cart
+      </button>
+    </p>
+    <dl>
+      <dt>
+        Color
+      </dt>
+      <dd
+        className="ProductDetails-Color text-capitalize"
+      >
+        red
+      </dd>
+      <dt>
+        Material
+      </dt>
+      <dd
+        className="ProductDetails-Material text-capitalize"
+      >
+        copium
+      </dd>
+    </dl>
+  </div>
+</div>
+`;

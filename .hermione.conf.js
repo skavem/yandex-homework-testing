@@ -1,3 +1,5 @@
+const dns = require("dns");
+
 module.exports = {
   sets: {
     desktop: {
@@ -11,6 +13,7 @@ module.exports = {
       desiredCapabilities: {
         browserName: "chrome",
       },
+      screenshotMode: "fullpage",
     },
   },
   plugins: {
